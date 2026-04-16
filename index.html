@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>علاج كسل العين - تجربة بسيطة</title>
+    <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
+</head>
+<body>
+    <h2 style="position: absolute; top: 10px; left: 10px; color: white; z-index: 10; background: rgba(0,0,0,0.5); padding: 5px 10px; border-radius: 20px;">ضع الهاتف في النظارة</h2>
+    <a-scene>
+        <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" animation="property: rotation; to: 0 405 0; loop: true; dur: 5000"></a-box>
+        <a-sphere position="1 0.75 -3" radius="0.5" color="#EF2D5E" animation="property: position; to: 1 1.25 -3; dir: alternate; dur: 2000; loop: true"></a-sphere>
+        <a-cylinder position="0 0.5 -3" radius="0.5" height="1" color="#FFC65D" animation="property: rotation; to: 0 360 0; loop: true; dur: 8000"></a-cylinder>
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="10" height="10" color="#7BC8A4"></a-plane>
+        <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+</body>
+</html>
